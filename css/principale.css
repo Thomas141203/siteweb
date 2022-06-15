@@ -248,17 +248,17 @@ Partie centrale
 }
 
 .blue{
-    background-color: blue;
+    background-color: rgb(108, 243, 176);
 }
 
 .red{
     margin-top: -5px;
-    background-color: red;
+    background-color: rgb(245, 157, 107);
 }
 
 .yellow{
     margin-top: -5px;
-    background-color: yellow;
+    background-color: rgb(108, 243, 176);
 }
 
 .green{
