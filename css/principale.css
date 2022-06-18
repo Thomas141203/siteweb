@@ -267,29 +267,46 @@ Partie centrale
 }
 
 .divSection{
+    height: 50vh;
+    border: solid 1px;
     text-align: center!important;
     display: block;
     width: 49.99999%;
 }
 
+.section1-titre{
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+.section1-paragraphe{
+    font-size: 30px;
+}
+
+.section1-image{
+    width: 65%;
+    height: 100%;
+}
+
 .bouton{
-    border:none;
-    display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:inherit;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap}
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap}
 
 .bouton-1{
     background-color: red;
     color: white;
     font-size: 18px;
     margin: auto;
+    margin-top: -20px;
     display: block;
     width: 200px;
     border-radius: 25px;
