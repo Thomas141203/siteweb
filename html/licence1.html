@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,58 +7,50 @@
         <title>Licence 1</title>
         <link href="../css/licence1.css" rel="stylesheet" type="text/css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </head>
     <body>
         <header class="header">
             <nav class="navbar">
                 <div class="logo">Thomas1412</div>
                 <ul class="nav-links">
-                    <input type="checkbox" id="checkbox_toggle" />
+                    <input type="checkbox" id="checkbox_toggle"/>
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <div class="menu">
                         <li class="services">
                             <a href="#">math</a>
                             <ul class="dropdown">
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
+                                <li><a href="#" onclick="AnalyseS1();">Math 1A</a></li>
+                                <li><a href="#" onclick="AlgebreS1();">Math 1B</a></li>
+                                <li><a href="#" onclick="AnalyseS2();">Math 2A</a></li>
+                                <li><a href="#" onclick="AlgebreS2();">Math 2B</a></li>
                             </ul>
                         </li>
 
                         <li class="services">
                             <a href="#">info</a>
                             <ul class="dropdown">
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
+                                <li><a href="#" onclick="Algo();">Info 1A</a></li>
+                                <li><a href="#" onclick="Web();">Info 1B</a></li>
+                                <li><a href="#" onclick="ProgObjet();">Info 2A</a></li>
+                                <li><a href="#" onclick="InterfaceVisuelle();">Info 2B</a></li>
                             </ul>
                         </li>
 
                         <li class="services">
                             <a href="#">elec</a>
                             <ul class="dropdown">
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
+                                <li><a href="#" onclick="Electronique();">Elec 1A</a></li>
                             </ul>
                         </li>
 
                         <li class="services">
                             <a href="#">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
-                                <li><a href="#">Dropdown 5</a></li>
-                            </ul>
                         </li>
 
                         <li>
@@ -75,90 +67,82 @@
                 </div>
             </div>
         </header>
+        
+        <section id="module">
+            <div id="matiere">Cliquez sur les cases du menu pour afficher le contenu</div>
+        </section>
 
-        <section class="semestre1">
-            <h1 class="titre">Semestre 1</h1>
-            <div class="mainContent">
-                <div class="mathA">
-                    <h2 class="module">Analyse</h2>
-                    <h3>CM :</h3>
-                    <div class="containerr">
-                        <a class="element" href="#">oui</a>
-                        <a class="element" href="#">non</a>
-                        <a class="element" href="#">nan</a>
-                        <a class="element" href="#">oui</a>
-                        <a class="element" href="#">non</a>
-                        <a class="element" href="#">nan</a>
+        <br/> 
+
+        <footer class="footer">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p><i class="fa fa-location-arrow"></i>9878/25 sec 9 rohini 35</p>
+                        <p><i class="fa fa-phone"></i>+91-9999878398</p>
+                        <p><i class="fa fa fa-envelope"></i>info@example.com</p>
                     </div>
-
-                    <h3>TD :</h3>
-                    <ul class="listeTd">
-                        <li><a href="#">td</a></li>
-                    </ul>
-                </div>
-
-                <div class="mathB">
-                    <h2 class="module">Algèbre</h2>
-                    <h3>CM :</h3>
-                    <ul class="listeCours">
-                        <li><a href="#">cm 1</a></li>
-                    </ul>
-
-                    <h3>TD :</h3>
-                    <ul class="listeTd">
-                        <li><a href="#">td</a></li>
-                    </ul>
-                </div>
-
-                <div class="infoA">
-                    <h2 class="module">Algorithmie</h2>
-                    <h3>CM :</h3>
-                    <ul class="listeCours">
-                        <li><a href="#">cm 1</a></li>
-                    </ul>
-                    
-                    <h3>TD :</h3>
-                    <ul class="listeTd">
-                        <li><a href="#">td</a></li>
-                    </ul>
-                </div>
-
-                <div class="infoB">
-                    <h2 class="module">Web</h2>
-                    <h3>CM :</h3>
-                    <ul class="listeCours">
-                        <li><a href="#">cm 1</a></li>
-                    </ul>
-                    
-                    <h3>TD :</h3>
-                    <ul class="listeTd">
-                        <li><a href="#">td</a></li>
-                    </ul>
-                </div>
-
-                <div class="elecA">
-                    <h2 class="module">Electronique</h2>
-                    <h3>CM :</h3>
-                    <ul class="listeCours">
-                        <li><a href="#">cm 1</a></li>
-                    </ul>
-                    
-                    <h3>TD :</h3>
-                    <ul class="listeTd">
-                        <li><a href="#">td</a></li>
-                    </ul>
+            
+            
+                    <div class=" col-sm-4 col-md  col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                        <ul class="footer_ul_amrc">
+                            <li><a href="#">Image Rectoucing</a></li>
+                            <li><a href="#">Clipping Path</a></li>
+                            <li><a href="#">Hollow Man Montage</a></li>
+                            <li><a href="#">Ebay & Amazon</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class=" col-sm-4 col-md  col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                        <ul class="footer_ul_amrc">
+                            <li><a href="#">Remove Background</a></li>
+                            <li><a href="#">Shadows & Mirror Reflection</a></li>
+                            <li><a href="#">Logo Design</a></li>
+                            <li><a href="#">Vectorization</a></li>
+                            <li><a href="#">Hair Masking/Clipping</a></li>
+                            <li><a href="#">Image Cropping</a></li>
+                        </ul>
+                    </div>
+            
+            
+                    <div class=" col-sm-4 col-md  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                        <ul class="footer_ul2_amrc">
+                            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
+            
+            
+            <div class="container">
+                <ul class="foote_bottom_ul_amrc">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
 
-        <section>
-            <table>
-                
-            </table>
-        </section>
-
-        <footer>
-
+                <p class="text-center">Copyright @2022 | Designed With by <a href="#">Thomas1412</a></p>
+            
+                <ul class="social_footer_ul">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
         </footer>
+        <script type="text/javascript" src="../js/licence1.js"></script>
     </body>
 </html>
